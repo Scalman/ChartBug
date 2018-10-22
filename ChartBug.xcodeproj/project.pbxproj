@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691DAB6C217E5D9400C7BEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB6B217E5D9400C7BEC9 /* AppDelegate.swift */; };
+		691DAB73217E5D9700C7BEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691DAB72217E5D9700C7BEC9 /* Assets.xcassets */; };
+		691DAB76217E5D9700C7BEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691DAB74217E5D9700C7BEC9 /* LaunchScreen.storyboard */; };
+		691DAB8C217E5E5D00C7BEC9 /* ChartRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB7E217E5E5D00C7BEC9 /* ChartRemoteDataManager.swift */; };
+		691DAB8D217E5E5D00C7BEC9 /* ChartProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB7F217E5E5D00C7BEC9 /* ChartProtocols.swift */; };
+		691DAB8E217E5E5D00C7BEC9 /* ChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB80217E5E5D00C7BEC9 /* ChartPresenter.swift */; };
+		691DAB8F217E5E5D00C7BEC9 /* ChartLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB81217E5E5D00C7BEC9 /* ChartLocalDataManager.swift */; };
+		691DAB90217E5E5D00C7BEC9 /* Chart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691DAB82217E5E5D00C7BEC9 /* Chart.storyboard */; };
+		691DAB91217E5E5D00C7BEC9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB84217E5E5D00C7BEC9 /* TableViewController.swift */; };
+		691DAB92217E5E5D00C7BEC9 /* StackedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB85217E5E5D00C7BEC9 /* StackedChartView.swift */; };
+		691DAB94217E5E5D00C7BEC9 /* ContentSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB88217E5E5D00C7BEC9 /* ContentSelectionController.swift */; };
+		691DAB95217E5E5D00C7BEC9 /* ChartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB89217E5E5D00C7BEC9 /* ChartRouter.swift */; };
+		691DAB96217E5E5D00C7BEC9 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB8A217E5E5D00C7BEC9 /* ChartViewController.swift */; };
+		691DAB97217E5E5D00C7BEC9 /* ChartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB8B217E5E5D00C7BEC9 /* ChartInteractor.swift */; };
+		691DAB99217E607D00C7BEC9 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DAB98217E607C00C7BEC9 /* ChartModel.swift */; };
+		AFAE6D681FF8B8A99428A1B5 /* Pods_ChartBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE29D4771D8582AC9C7CC0D3 /* Pods_ChartBug.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		691DAB68217E5D9400C7BEC9 /* ChartBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		691DAB6B217E5D9400C7BEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		691DAB72217E5D9700C7BEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		691DAB75217E5D9700C7BEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		691DAB77217E5D9700C7BEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691DAB7E217E5E5D00C7BEC9 /* ChartRemoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartRemoteDataManager.swift; sourceTree = "<group>"; };
+		691DAB7F217E5E5D00C7BEC9 /* ChartProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartProtocols.swift; sourceTree = "<group>"; };
+		691DAB80217E5E5D00C7BEC9 /* ChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartPresenter.swift; sourceTree = "<group>"; };
+		691DAB81217E5E5D00C7BEC9 /* ChartLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLocalDataManager.swift; sourceTree = "<group>"; };
+		691DAB82217E5E5D00C7BEC9 /* Chart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chart.storyboard; sourceTree = "<group>"; };
+		691DAB84217E5E5D00C7BEC9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		691DAB85217E5E5D00C7BEC9 /* StackedChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedChartView.swift; sourceTree = "<group>"; };
+		691DAB88217E5E5D00C7BEC9 /* ContentSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentSelectionController.swift; sourceTree = "<group>"; };
+		691DAB89217E5E5D00C7BEC9 /* ChartRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartRouter.swift; sourceTree = "<group>"; };
+		691DAB8A217E5E5D00C7BEC9 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		691DAB8B217E5E5D00C7BEC9 /* ChartInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartInteractor.swift; sourceTree = "<group>"; };
+		691DAB98217E607C00C7BEC9 /* ChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		AE29D4771D8582AC9C7CC0D3 /* Pods_ChartBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49D8C7BF86EAC4C36B7E7D3 /* Pods-ChartBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartBug.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartBug/Pods-ChartBug.release.xcconfig"; sourceTree = "<group>"; };
+		F9AEAF520B9F0C2FE14774DC /* Pods-ChartBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartBug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartBug/Pods-ChartBug.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		691DAB65217E5D9400C7BEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAE6D681FF8B8A99428A1B5 /* Pods_ChartBug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5563222AE7C53A073AFDE8F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9AEAF520B9F0C2FE14774DC /* Pods-ChartBug.debug.xcconfig */,
+				D49D8C7BF86EAC4C36B7E7D3 /* Pods-ChartBug.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		691DAB5F217E5D9400C7BEC9 = {
+			isa = PBXGroup;
+			children = (
+				691DAB6A217E5D9400C7BEC9 /* ChartBug */,
+				691DAB69217E5D9400C7BEC9 /* Products */,
+				5563222AE7C53A073AFDE8F9 /* Pods */,
+				EC1766D60F2F34BC71EA9F26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		691DAB69217E5D9400C7BEC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				691DAB68217E5D9400C7BEC9 /* ChartBug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		691DAB6A217E5D9400C7BEC9 /* ChartBug */ = {
+			isa = PBXGroup;
+			children = (
+				691DAB7D217E5E5D00C7BEC9 /* Chart */,
+				691DAB6B217E5D9400C7BEC9 /* AppDelegate.swift */,
+				691DAB72217E5D9700C7BEC9 /* Assets.xcassets */,
+				691DAB74217E5D9700C7BEC9 /* LaunchScreen.storyboard */,
+				691DAB77217E5D9700C7BEC9 /* Info.plist */,
+			);
+			path = ChartBug;
+			sourceTree = "<group>";
+		};
+		691DAB7D217E5E5D00C7BEC9 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				691DAB98217E607C00C7BEC9 /* ChartModel.swift */,
+				691DAB7E217E5E5D00C7BEC9 /* ChartRemoteDataManager.swift */,
+				691DAB7F217E5E5D00C7BEC9 /* ChartProtocols.swift */,
+				691DAB80217E5E5D00C7BEC9 /* ChartPresenter.swift */,
+				691DAB81217E5E5D00C7BEC9 /* ChartLocalDataManager.swift */,
+				691DAB82217E5E5D00C7BEC9 /* Chart.storyboard */,
+				691DAB83217E5E5D00C7BEC9 /* Table */,
+				691DAB85217E5E5D00C7BEC9 /* StackedChartView.swift */,
+				691DAB87217E5E5D00C7BEC9 /* ContentSelection */,
+				691DAB89217E5E5D00C7BEC9 /* ChartRouter.swift */,
+				691DAB8A217E5E5D00C7BEC9 /* ChartViewController.swift */,
+				691DAB8B217E5E5D00C7BEC9 /* ChartInteractor.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		691DAB83217E5E5D00C7BEC9 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				691DAB84217E5E5D00C7BEC9 /* TableViewController.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		691DAB87217E5E5D00C7BEC9 /* ContentSelection */ = {
+			isa = PBXGroup;
+			children = (
+				691DAB88217E5E5D00C7BEC9 /* ContentSelectionController.swift */,
+			);
+			path = ContentSelection;
+			sourceTree = "<group>";
+		};
+		EC1766D60F2F34BC71EA9F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE29D4771D8582AC9C7CC0D3 /* Pods_ChartBug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		691DAB67217E5D9400C7BEC9 /* ChartBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691DAB7A217E5D9700C7BEC9 /* Build configuration list for PBXNativeTarget "ChartBug" */;
+			buildPhases = (
+				A940C7A97203A5DEDABF7B28 /* [CP] Check Pods Manifest.lock */,
+				691DAB64217E5D9400C7BEC9 /* Sources */,
+				691DAB65217E5D9400C7BEC9 /* Frameworks */,
+				691DAB66217E5D9400C7BEC9 /* Resources */,
+				D2CCC76298DF9EC43E8694CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartBug;
+			productName = ChartBug;
+			productReference = 691DAB68217E5D9400C7BEC9 /* ChartBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691DAB60217E5D9400C7BEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Waleed Hassan";
+				TargetAttributes = {
+					691DAB67217E5D9400C7BEC9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 691DAB63217E5D9400C7BEC9 /* Build configuration list for PBXProject "ChartBug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 691DAB5F217E5D9400C7BEC9;
+			productRefGroup = 691DAB69217E5D9400C7BEC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691DAB67217E5D9400C7BEC9 /* ChartBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		691DAB66217E5D9400C7BEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691DAB76217E5D9700C7BEC9 /* LaunchScreen.storyboard in Resources */,
+				691DAB73217E5D9700C7BEC9 /* Assets.xcassets in Resources */,
+				691DAB90217E5E5D00C7BEC9 /* Chart.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A940C7A97203A5DEDABF7B28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartBug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2CCC76298DF9EC43E8694CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChartBug/Pods-ChartBug-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartBug/Pods-ChartBug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		691DAB64217E5D9400C7BEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691DAB8C217E5E5D00C7BEC9 /* ChartRemoteDataManager.swift in Sources */,
+				691DAB97217E5E5D00C7BEC9 /* ChartInteractor.swift in Sources */,
+				691DAB95217E5E5D00C7BEC9 /* ChartRouter.swift in Sources */,
+				691DAB91217E5E5D00C7BEC9 /* TableViewController.swift in Sources */,
+				691DAB94217E5E5D00C7BEC9 /* ContentSelectionController.swift in Sources */,
+				691DAB92217E5E5D00C7BEC9 /* StackedChartView.swift in Sources */,
+				691DAB8E217E5E5D00C7BEC9 /* ChartPresenter.swift in Sources */,
+				691DAB8F217E5E5D00C7BEC9 /* ChartLocalDataManager.swift in Sources */,
+				691DAB6C217E5D9400C7BEC9 /* AppDelegate.swift in Sources */,
+				691DAB8D217E5E5D00C7BEC9 /* ChartProtocols.swift in Sources */,
+				691DAB99217E607D00C7BEC9 /* ChartModel.swift in Sources */,
+				691DAB96217E5E5D00C7BEC9 /* ChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		691DAB74217E5D9700C7BEC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691DAB75217E5D9700C7BEC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		691DAB78217E5D9700C7BEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		691DAB79217E5D9700C7BEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691DAB7B217E5D9700C7BEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AEAF520B9F0C2FE14774DC /* Pods-ChartBug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K83QP84R99;
+				INFOPLIST_FILE = ChartBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uboat.timey.ChartBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		691DAB7C217E5D9700C7BEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49D8C7BF86EAC4C36B7E7D3 /* Pods-ChartBug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K83QP84R99;
+				INFOPLIST_FILE = ChartBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uboat.timey.ChartBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		691DAB63217E5D9400C7BEC9 /* Build configuration list for PBXProject "ChartBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691DAB78217E5D9700C7BEC9 /* Debug */,
+				691DAB79217E5D9700C7BEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691DAB7A217E5D9700C7BEC9 /* Build configuration list for PBXNativeTarget "ChartBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691DAB7B217E5D9700C7BEC9 /* Debug */,
+				691DAB7C217E5D9700C7BEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691DAB60217E5D9400C7BEC9 /* Project object */;
+}
